@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useRef, useState } from "react";
 import { UseForms } from "../Context/FormsContext";
 import { UseAuth } from "../Context/AuthContext";
