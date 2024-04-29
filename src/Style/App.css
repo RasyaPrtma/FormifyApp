@@ -103,17 +103,39 @@
   width: 200px;
   height: auto;
   padding: 20px;
-  margin-top: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+.choices{
+  border: none;
+  display: flex;
+}
+
 .label{
+  width: 100%;
   color: #f8f8f8;
   background: transparent;
   outline: none;
   border: none;
-  margin-bottom: 1rem;
+  margin-top: 2px;
+}
+
+.value{
+  width: 120px;
+}
+
+.drop{
+  display: flex;
+}
+
+.wrap{
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.box{
+  display: flex;
 }
