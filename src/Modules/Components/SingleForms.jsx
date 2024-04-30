@@ -9,7 +9,7 @@ import CheckBox from "../Questions/CheckBox";
 import Paragraph from "../Questions/Paragraph";
 
 export default function SingleForms() {
-  const Location = window.location;
+  const Location = window.location; 
   const SearchParams = new URLSearchParams(Location.search);
   const Params = SearchParams.get("slug");
 
